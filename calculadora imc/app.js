@@ -31,8 +31,6 @@ function imc(){
   } else {
     res.textContent = "Preencha todos os campos!";
   }
-  
-  
 };
 
 //evento para o botão
