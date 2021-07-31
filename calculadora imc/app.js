@@ -16,13 +16,13 @@ function imc(){
     //este if é para determinar qual a classificação do imc digitado
     if (valorImc < 18.5){
       classification = 'abaixo do peso.'
-    } else if (valorImc < 25){
+    } else if (valorImc <= 24.9){
       classification = 'peso normal, parabéns!'
-    } else if (valorImc < 30){
+    } else if (valorImc <= 29.9){
       classification = 'com sobrepeso.'
-    } else if (valorImc < 35){
+    } else if (valorImc <= 34.9){
       classification ='com obesidade grau I.'
-    } else if (valorImc < 40){
+    } else if (valorImc <= 39.9){
       classification ='com obesidade grau II.'
     } else {
       classification ='com obesidade grau III.'
